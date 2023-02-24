@@ -1,0 +1,124 @@
+{
+	"terminal.integrated.profiles.osx": {
+		"zsh": {
+			"path": "/bin/zsh"
+		}
+	},
+	"workbench.startupEditor": "newUntitledFile",
+	"workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+	"editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+	"editor.fontSize": 15,
+	"editor.lineHeight": 24,
+	"editor.minimap.enabled": false,
+	"editor.formatOnSave": false,
+	"editor.renderLineHighlight": "gutter",
+	"editor.wordWrap": "wordWrapColumn",
+	"editor.wordWrapColumn": 100,
+	"editor.wrappingIndent": "same",
+	"editor.detectIndentation": true,
+	"editor.rulers": [80, 120],
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.compactFolders": false,
+	"prettier.printWidth": 100,
+	"prettier.tabWidth": 2,
+	"prettier.useTabs": true,
+	"prettier.singleQuote": true,
+	"git.autofetch": true,
+	"prettier.jsxSingleQuote": true,
+	"update.showReleaseNotes": false,
+	"code-runner.runInTerminal": true,
+	"code-runner.clearPreviousOutput": true,
+	"code-runner.executorMap": {
+		"python": "clear && python -u",
+	},
+	"code-runner.ignoreSelection": true,
+	"python.defaultInterpreterPath": "python",
+	"[javascript]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		},
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[javascriptreact]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		},
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		},
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		},
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.tabSize": 2,
+	"extensions.ignoreRecommendations": true,
+	"go.formatTool": "goimports",
+	"go.useLanguageServer": true,
+	"files.associations": {
+		".sequelizerc": "javascript",
+		".stylelintrc": "json",
+		".prettierrc": "json"
+	},
+	"material-icon-theme.folders.associations": {
+		"infra": "pipe",
+		"usecase": "resource",
+		"domain": "class",
+		"entities": "class",
+		"schemas": "class",
+		"typeorm": "database",
+		"repositories": "mappings",
+		"repository": "mappings",
+		"http": "container",
+		"migrations": "tools",
+		"modules": "components",
+		"implementations": "core",
+		"dtos": "typescript",
+		"fakes": "mock"
+	},
+	"material-icon-theme.files.associations": {
+		"ormconfig.json": "database",
+		"tsconfig.json": "tune"
+	},
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[prisma]": {
+		"editor.formatOnSave": true
+	},
+	"editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"go.toolsManagement.autoUpdate": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"security.workspace.trust.untrustedFiles": "open",
+	"redhat.telemetry.enabled": true,
+	"editor.inlineSuggest.enabled": true,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"go.lintTool": "golangci-lint",
+	"go.lintFlags": ["--fast"],
+	"terminal.integrated.enableMultiLinePasteWarning": false,
+	"git.mergeEditor": false,
+	"git.ignoreMissingGitWarning": true,
+	"workbench.sideBar.location": "right",
+	"[python]": {
+		"editor.formatOnType": true
+	}
+}
